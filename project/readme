@@ -1,1 +1,17 @@
+Stock Price Prediction with Machine Learning
+This project uses machine learning to predict stock prices based on historical data. It employs a Long Short-Term Memory (LSTM) neural network model to forecast future stock prices for various companies.
 
+Features
+Data collection from Yahoo Finance using the yfinance library
+LSTM model for time series prediction
+Training on multiple stock data to improve generalization
+Prediction visualization with matplotlib
+GPU support for faster training (if available)
+Requirements
+Python 3.7+
+TensorFlow 2.x
+yfinance
+pandas
+numpy
+matplotlib
+scikit-learn
